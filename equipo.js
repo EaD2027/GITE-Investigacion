@@ -66,6 +66,14 @@ window.GITE_EQUIPO = [
     areas: ["1", "2", "3"],
     foto: "assets/equipo/marina.jpg",
     enlaces: [{ texto: "Ver Linkedin", url: "https://ar.linkedin.com/in/marina-mattarolo-86068719b/" }]
+  },
+          {
+    nombre: "Lic. Natanael Soberón",
+    rol: "Investigador en Formación en GITE",
+    perfil: "Es una profesional con formación de posgrado en Tecnología Educativa y ...",
+    areas: ["1", "2", "3"],
+    foto: "assets/equipo/marina.jpg",
+    enlaces: [{ texto: "Ver Linkedin", url: "https://ar.linkedin.com/in/natanael-soberon/" }]
   }
 ];
 

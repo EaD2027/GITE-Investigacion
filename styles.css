@@ -101,7 +101,7 @@ body{font-size:15px}
 .insight-card .publication-card-cta:hover{text-decoration:underline;text-underline-offset:4px}
 .contact-form{border-radius:14px}
 .footer-links a{transition:color .2s}
-.footer-links a:hover{color:var(--yellow)}
+.footer-links a:hover{color:var(--violet)}
 /* Subpáginas: coherencia visual */
 .pub-hero{background:linear-gradient(160deg,#f4f0ed 0%,#fbfaf8 100%)}
 .pub-breadcrumb{margin-bottom:52px}

@@ -6,29 +6,29 @@
 window.GITE_EQUIPO = [
   {
     categoria: "direccion",
-    nombre: "Nombre y apellido",
+    nombre: "Dario Rodriguez",
     rol: "Rol o función en GITE",
     perfil: "Breve perfil académico y profesional. Podés indicar formación, experiencia, temas de investigación y proyectos relevantes en dos o tres oraciones.",
     areas: ["Tecnología educativa", "Investigación"],
-    foto: "assets/equipo/integrante-01.jpg",
+    foto: "assets/equipo/dario.jpg",
     enlaces: []
   },
   {
     categoria: "coordinacion",
-    nombre: "Nombre y apellido",
+    nombre: "Elsa Reyes",
     rol: "Rol o función en GITE",
     perfil: "Espacio para presentar su trayectoria, el trabajo que desarrolla dentro del equipo y sus principales líneas de interés.",
     areas: ["Inteligencia artificial", "Educación superior"],
-    foto: "assets/equipo/integrante-02.jpg",
+    foto: "assets/equipo/elsa.jpg",
     enlaces: []
   },
   {
     categoria: "formacion",
-    nombre: "Nombre y apellido",
+    nombre: "Gaston Brito",
     rol: "Rol o función en GITE",
     perfil: "Descripción breve para que las personas visitantes conozcan su especialidad, su recorrido académico y su contribución al grupo.",
     areas: ["Educación digital", "Analítica del aprendizaje"],
-    foto: "assets/equipo/integrante-03.jpg",
+    foto: "assets/equipo/gaston.jpg",
     enlaces: []
   },
   {

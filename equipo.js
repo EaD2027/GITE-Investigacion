@@ -25,7 +25,12 @@ window.GITE_EQUIPO = [
     perfil: "Es Profesora Superior en Ciencias de la Administración y Licenciada en Organización y Gestión Educativa. Cuenta con formación en Estadística e Indicadores Educativos, Tecnología Informática Aplicada en Educación, Ingeniería en Sistemas de Información y Ciencia de Datos. Se especializa en la intersección entre educación, ciencia de datos, estadística, tecnología e inteligencia artificial, con foco en la educación superior y la gestión educativa. Sus líneas de trabajo comprenden el análisis de datos e indicadores educativos, el estudio de trayectorias educativas, la construcción de sistemas de información y observatorios, y la integración de inteligencia artificial en contextos educativos.",
     areas: ["1", "2"],
     foto: "assets/equipo/elsa.jpg",
-    enlaces: []
+    enlaces: [
+  {
+    texto: "LinkedIn",
+    url: "https://ar.linkedin.com/in/elsa-reyes-3b6b9271/"
+  }
+]
   },
   {
     categoria: "formacion",
@@ -34,7 +39,12 @@ window.GITE_EQUIPO = [
     perfil: "Es un profesional formado en Tecnología Educativa y profesor de Matemática, con formación de posgrado en Enseñanza de las Ciencias Experimentales y Matemática. Se desempeña como docente universitario, asesor tecnopedagógico y formador docente en educación a distancia. Sus intereses de investigación se centran en la educación híbrida, la inteligencia artificial generativa y la enseñanza de las ciencias y la matemática. Ha participado en trabajos vinculados con el desarrollo de propuestas educativas híbridas y a distancia mediadas por tecnologías.",
     areas: ["1", "2"],
     foto: "assets/equipo/gaston.jpg",
-    enlaces: []
+    enlaces: [
+  {
+    texto: "LinkedIn",
+    url: "https://ar.linkedin.com/in/carlos-gaston-brito-bab294250/"
+  }
+]
   },
   {
     categoria: "externos",

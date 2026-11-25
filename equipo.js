@@ -6,28 +6,28 @@
 window.GITE_EQUIPO = [
   {
     categoria: "direccion",
-    nombre: "Dario Rodriguez",
-    rol: "Rol o función en GITE",
-    perfil: "Breve perfil académico y profesional. Podés indicar formación, experiencia, temas de investigación y proyectos relevantes en dos o tres oraciones.",
-    areas: ["Tecnología educativa", "Investigación"],
+    nombre: "Dr. Dario Rodriguez",
+    rol: "Director en GITE",
+    perfil: "Es un profesional con formación en Ciencias Informáticas, Tecnología Informática Aplicada a la Educación y Comunicación Audiovisual, con amplia trayectoria en investigación, docencia universitaria y tecnología educativa. Especializado en Ingeniería de Espacios Virtuales de Trabajo (EVT), dirige grupos y proyectos de investigación vinculados con el aprendizaje colaborativo y la construcción del conocimiento. Actualmente, es Director General de Educación a Distancia y del SIED en Rectorado de la UTN y Director de Educación a Distancia en UTN.BA. Sus intereses de investigación incluyen la inteligencia artificial aplicada a la educación, las tecnologías emergentes y la innovación en la enseñanza universitaria.",
+    areas: ["1", "2"],
     foto: "assets/equipo/dario.jpg",
     enlaces: []
   },
   {
     categoria: "coordinacion",
-    nombre: "Elsa Reyes",
-    rol: "Rol o función en GITE",
-    perfil: "Espacio para presentar su trayectoria, el trabajo que desarrolla dentro del equipo y sus principales líneas de interés.",
-    areas: ["Inteligencia artificial", "Educación superior"],
+    nombre: "Esp. Elsa Reyes",
+    rol: "Coordinadora de Proyectos en GITE",
+    perfil: "Es Profesora Superior en Ciencias de la Administración y Licenciada en Organización y Gestión Educativa. Cuenta con formación en Estadística e Indicadores Educativos, Tecnología Informática Aplicada en Educación, Ingeniería en Sistemas de Información y Ciencia de Datos. Se especializa en la intersección entre educación, ciencia de datos, estadística, tecnología e inteligencia artificial, con foco en la educación superior y la gestión educativa. Sus líneas de trabajo comprenden el análisis de datos e indicadores educativos, el estudio de trayectorias educativas, la construcción de sistemas de información y observatorios, y la integración de inteligencia artificial en contextos educativos.",
+    areas: ["1", "2"],
     foto: "assets/equipo/elsa.jpg",
     enlaces: []
   },
   {
     categoria: "formacion",
-    nombre: "Gaston Brito",
-    rol: "Rol o función en GITE",
-    perfil: "Descripción breve para que las personas visitantes conozcan su especialidad, su recorrido académico y su contribución al grupo.",
-    areas: ["Educación digital", "Analítica del aprendizaje"],
+    nombre: "Lic. Gastón Brito",
+    rol: "Investigador en Formación en GITE",
+    perfil: "Es un profesional formado en Tecnología Educativa y profesor de Matemática, con formación de posgrado en Enseñanza de las Ciencias Experimentales y Matemática. Se desempeña como docente universitario, asesor tecnopedagógico y formador docente en educación a distancia. Sus intereses de investigación se centran en la educación híbrida, la inteligencia artificial generativa y la enseñanza de las ciencias y la matemática. Ha participado en trabajos vinculados con el desarrollo de propuestas educativas híbridas y a distancia mediadas por tecnologías.",
+    areas: ["1", "2"],
     foto: "assets/equipo/gaston.jpg",
     enlaces: []
   },

@@ -1,79 +1,44 @@
 // EDITÁ ESTE ARCHIVO PARA PUBLICAR LOS PERFILES REALES DEL EQUIPO.
 // Copiá o eliminá elementos del listado según la cantidad de integrantes.
+// categoria: direccion | coordinacion | formacion | externos.
 // foto: ruta local dentro de assets/equipo/; si falta, se muestra un avatar neutro.
 // enlaces: agregá solo URLs reales. No son obligatorios.
 window.GITE_EQUIPO = [
   {
-    nombre: "Dr. Dario Rodriguez",
-    rol: "Director en GITE",
-    perfil: "Es un profesional con formación en Ciencias Informáticas, Tecnología Informática Aplicada a la Educación y Comunicación Audiovisual, con amplia trayectoria en investigación, docencia universitaria y tecnología educativa. Especializado en Ingeniería de Espacios Virtuales de Trabajo (EVT), dirige grupos y proyectos de investigación vinculados con el aprendizaje colaborativo y la construcción del conocimiento. Actualmente, es Director General de Educación a Distancia y del SIED en Rectorado de la UTN y Director de Educación a Distancia en UTN.BA. Sus intereses de investigación incluyen la inteligencia artificial aplicada a la educación, las tecnologías emergentes y la innovación en la enseñanza universitaria.",
-    areas: ["1", "2", "3"],
-    foto: "assets/equipo/dario.jpg",
-    enlaces: [{ texto: "Ver Linkedin", url: "https://ar.linkedin.com/in/dario-rodriguez-sn/" }]
+    categoria: "direccion",
+    nombre: "Nombre y apellido",
+    rol: "Rol o función en GITE",
+    perfil: "Breve perfil académico y profesional. Podés indicar formación, experiencia, temas de investigación y proyectos relevantes en dos o tres oraciones.",
+    areas: ["Tecnología educativa", "Investigación"],
+    foto: "assets/equipo/integrante-01.jpg",
+    enlaces: []
   },
   {
-    nombre: "Esp. Elsa Reyes",
-    rol: "Coordinadora de Proyectos en GITE",
-    perfil: "Es Profesora Superior en Ciencias de la Administración y Licenciada en Organización y Gestión Educativa. Cuenta con formación en Estadística e Indicadores Educativos, Tecnología Informática Aplicada en Educación, Ingeniería en Sistemas de Información y Ciencia de Datos. Se especializa en la intersección entre educación, ciencia de datos, estadística, tecnología e inteligencia artificial, con foco en la educación superior y la gestión educativa. Sus líneas de trabajo comprenden el análisis de datos e indicadores educativos, el estudio de trayectorias educativas, la construcción de sistemas de información y observatorios, y la integración de inteligencia artificial en contextos educativos.",
-    areas: ["1", "2", "3"],
-    foto: "assets/equipo/elsa.jpg",
-    enlaces: [{ texto: "Ver Linkedin", url: "https://ar.linkedin.com/in/elsa-reyes-3b6b9271/" }]
+    categoria: "coordinacion",
+    nombre: "Nombre y apellido",
+    rol: "Rol o función en GITE",
+    perfil: "Espacio para presentar su trayectoria, el trabajo que desarrolla dentro del equipo y sus principales líneas de interés.",
+    areas: ["Inteligencia artificial", "Educación superior"],
+    foto: "assets/equipo/integrante-02.jpg",
+    enlaces: []
   },
   {
-    nombre: "Lic. Gastón Brito",
-    rol: "Investigador en Formación en GITE",
-    perfil: "Es un profesional formado en Tecnología Educativa y profesor de Matemática, con formación de posgrado en Enseñanza de las Ciencias Experimentales y Matemática. Se desempeña como docente universitario, asesor tecnopedagógico y formador docente en educación a distancia. Sus intereses de investigación se centran en la educación híbrida, la inteligencia artificial generativa y la enseñanza de las ciencias y la matemática. Ha participado en trabajos vinculados con el desarrollo de propuestas educativas híbridas y a distancia mediadas por tecnologías.",
-    areas: ["1", "2", "3"],
-    foto: "assets/equipo/gaston.jpg",
-    enlaces: [{ texto: "Ver Linkedin", url: "https://ar.linkedin.com/in/carlos-gaston-brito-bab294250/" }]
+    categoria: "formacion",
+    nombre: "Nombre y apellido",
+    rol: "Rol o función en GITE",
+    perfil: "Descripción breve para que las personas visitantes conozcan su especialidad, su recorrido académico y su contribución al grupo.",
+    areas: ["Educación digital", "Analítica del aprendizaje"],
+    foto: "assets/equipo/integrante-03.jpg",
+    enlaces: []
   },
-    {
-    nombre: "Lic. Cintia Cliso",
-    rol: "Investigadora en Formación en GITE",
-    perfil: "Es una profesional con formación en Tecnología Educativa y experiencia en docencia universitaria en propuestas de educación a distancia. Sus intereses de investigación se centran en la integración pedagógica de la inteligencia artificial generativa y la mediación tecnopedagógica en la educación superior. Su trabajo incorpora una perspectiva filosófica orientada al pensamiento crítico y reflexivo, con especial atención a los fundamentos epistemológicos que sustentan el uso de las tecnologías digitales en los procesos de enseñanza y aprendizaje.",
-    areas: ["1", "2", "3"],
-    foto: "assets/equipo/cintia.jpg",
-    enlaces: [{ texto: "Ver Linkedin", url: "https://www.linkedin.com/in/cintia-elizabeth-cliso-93361331a/" }]
-  },
-      {
-    nombre: "Lic. Belen Rios",
-    rol: "Investigadora en Formación en GITE",
-    perfil: "Es una profesional formada en Tecnología Educativa, con experiencia en educación híbrida y tecnologías digitales aplicadas a la enseñanza. Su trabajo se centra en la investigación sobre el uso pedagógico de los entornos virtuales de aprendizaje y la integración de la inteligencia artificial generativa en la educación superior. Es coautora de trabajos sobre simulación situada con inteligencia artificial (e-labs) y el uso de NotebookLM en la gestión docente.",
-    areas: ["1", "2", "3"],
-    foto: "assets/equipo/belen.jpg",
-    enlaces: [{ texto: "Ver Linkedin", url: "https://ar.linkedin.com/in/maria-belen-rios/" }]
-  },
-      {
-    nombre: "Lic. Victoria Murno",
-    rol: "Investigadora en Formación en GITE",
-    perfil: "Es una profesional con formación en Tecnología Educativa, profesora de Educación Especial en la modalidad de sordos e hipoacúsicos y con formación complementaria en Neurociencias aplicadas a la Educación. Su trayectoria académica integra la educación especial y las tecnologías digitales, con especial interés en la accesibilidad, la inclusión educativa y las posibilidades que ofrecen las tecnologías para favorecer los procesos de enseñanza y aprendizaje.",
-    areas: ["1", "2", "3"],
-    foto: "assets/equipo/victoria.jpg",
-    enlaces: [{ texto: "Ver Linkedin", url: "https://www.linkedin.com/in/maria-victoria-murno-583b05209/" }]
-  },
-        {
-    nombre: "Mg. Marina Mattarolo",
-    rol: "Investigadora en Formación en GITE",
-    perfil: "Es una profesional con formación de posgrado en Tecnología Educativa y experiencia en educación a distancia, diseño tecnopedagógico y gestión de la calidad académica en entornos virtuales. Su trayectoria se centra en el diseño y la evaluación de propuestas educativas, la mejora de los procesos de enseñanza y aprendizaje y el acompañamiento a equipos docentes. Sus intereses de investigación incluyen la inteligencia artificial, las tecnologías emergentes y las experiencias de simulación aplicadas a la educación superior.",
-    areas: ["1", "2", "3"],
-    foto: "assets/equipo/marina.jpg",
-    enlaces: [{ texto: "Ver Linkedin", url: "https://ar.linkedin.com/in/marina-mattarolo-86068719b/" }]
-  },
-        {
-    nombre: "Lic. Leandro Bassani",
-    rol: "Investigador en Formación en GITE",
-    perfil: "Es un profesional con formación en Tecnología Educativa y profesor de Historia, que continúa ampliando su trayectoria académica en el campo de las tecnologías inclusivas en educación. Su interés se centra en la integración de tecnologías digitales en los procesos de enseñanza y aprendizaje, con especial atención a la accesibilidad y la inclusión educativa. Sus intereses de investigación se orientan a la innovación en los abordajes tecnoeducativos y al desarrollo de propuestas que favorezcan nuevas experiencias de aprendizaje en la educación no formal.",
-    areas: ["1", "2", "3"],
-    foto: "assets/equipo/leandro.jpg",
-    enlaces: [{ texto: "Ver Linkedin", url: "https://ar.linkedin.com/in/leandro-h-bassani-7a49b6260/" }]
-  },
-          {
-    nombre: "Mg. Natanael Soberón",
-    rol: "Investigador en Formación en GITE",
-    perfil: "Es un profesional con formación de posgrado en Tecnología Educativa e Investigación en Educación, actualmente doctorando en Educación. Cuenta con experiencia nacional e internacional en docencia universitaria, educación digital, diseño de entornos virtuales de aprendizaje y formación docente. Su trayectoria se centra en la integración de tecnologías digitales en la enseñanza, el enfoque STEAM y el pensamiento computacional. Sus intereses de investigación incluyen la tecnología educativa, la interdisciplinariedad, la polimatía y la justicia cognitiva en la educación superior.",
-    areas: ["1", "2", "3"],
-    foto: "assets/equipo/natanael.jpg",
-    enlaces: [{ texto: "Ver Linkedin", url: "https://ar.linkedin.com/in/natanael-soberon/" }]
+  {
+    categoria: "externos",
+    nombre: "Nombre y apellido",
+    rol: "Colaborador/a externo/a",
+    perfil: "Espacio para presentar la institución de procedencia, la formación y la colaboración académica con GITE.",
+    areas: ["Cooperación académica"],
+    foto: "assets/equipo/integrante-04.jpg",
+    enlaces: []
   }
 ];
 

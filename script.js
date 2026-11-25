@@ -56,35 +56,57 @@
     }
   }
 
-  // Tarjetas del equipo, configurables desde equipo.js.
+  // Equipo GITE: pestañas accesibles; los perfiles se administran en equipo.js.
   const grid = document.querySelector('#team-grid');
   const people = Array.isArray(window.GITE_EQUIPO) ? window.GITE_EQUIPO : [];
   const placeholder = 'assets/equipo/avatar-placeholder.svg';
+  const teamCategories = [
+    {id:'direccion',title:'Dirección',description:'Orientación científica, líneas de investigación y articulación institucional del grupo.'},
+    {id:'coordinacion',title:'Coordinación de proyectos',description:'Organización y seguimiento de proyectos de investigación y de sus equipos de trabajo.'},
+    {id:'formacion',title:'Investigadores en formación',description:'Integrantes que participan en proyectos mientras desarrollan su formación en investigación.'},
+    {id:'externos',title:'Colaboradores externos',description:'Investigadores y profesionales de otras instituciones que participan en actividades académicas y proyectos del grupo.'}
+  ];
   const safeUrl = value => {
     if (typeof value !== 'string') return null;
     const url = value.trim();
     if (/^https:\/\//i.test(url) || /^mailto:[^\s@]+@[^\s@]+$/i.test(url)) return url;
     return null;
   };
+  const normalizedCategory = person => {
+    const category = String(person.categoria || '').trim().toLowerCase();
+    return teamCategories.some(item => item.id === category) ? category : 'formacion';
+  };
   if (grid) {
-    people.forEach(person => {
+    const buttons = [...document.querySelectorAll('[data-team-category]')];
+    const heading = document.querySelector('#team-category-heading');
+    const description = document.querySelector('#team-category-description');
+    const panel = document.querySelector('#panel-equipo');
+    const overview = document.querySelector('#team-overview');
+    const back = document.querySelector('#team-back');
+    const empty = document.querySelector('#team-empty');
+    for (const category of teamCategories) {
+      const count = document.querySelector(`[data-count="${category.id}"]`);
+      if (count) count.textContent = people.filter(person => normalizedCategory(person) === category.id).length;
+    }
+    function makeCard(person) {
       const card = document.createElement('article');
-      card.className = 'team-card reveal visible';
+      card.className = 'team-card';
       const photo = document.createElement('div');
       photo.className = 'team-photo';
       const image = document.createElement('img');
       image.loading = 'lazy';
       image.decoding = 'async';
       image.src = typeof person.foto === 'string' && person.foto ? person.foto : placeholder;
-      image.alt = `Fotografía de ${person.nombre || 'integrante del equipo'}`;
-      image.onerror = () => { image.onerror = null; image.src = placeholder; image.alt = 'Imagen ilustrativa: fotografía pendiente'; };
+      image.alt = person.nombre ? `Fotografía de ${person.nombre}` : 'Imagen de perfil pendiente';
+      image.onerror = () => { image.onerror = null; image.src = placeholder; image.alt = 'Fotografía pendiente'; };
       photo.appendChild(image);
       const content = document.createElement('div');
       content.className = 'team-card-body';
       const role = document.createElement('p');
       role.className = 'team-role';
-      role.textContent = person.rol || 'Integrante GITE';
-      const name = document.createElement('h3');
+      role.textContent = person.rol || 'Integrante de GITE';
+      const name = document.createElement('h4');
+      name.className = 'team-member-name';
       name.textContent = person.nombre || 'Nombre y apellido';
       const bio = document.createElement('p');
       bio.className = 'team-bio';
@@ -115,8 +137,42 @@
         content.appendChild(links);
       }
       card.append(photo, content);
-      grid.appendChild(card);
+      return card;
+    }
+    const showOverview = () => {
+      overview.hidden = false;
+      panel.hidden = true;
+      buttons.forEach(button => {
+        button.classList.remove('is-active');
+        button.setAttribute('aria-pressed', 'false');
+      });
+      grid.replaceChildren();
+    };
+    const renderCategory = id => {
+      const category = teamCategories.find(item => item.id === id);
+      if (!category) return;
+      buttons.forEach(button => {
+        const selected = button.dataset.teamCategory === category.id;
+        button.classList.toggle('is-active', selected);
+        button.setAttribute('aria-pressed', String(selected));
+      });
+      heading.textContent = category.title;
+      description.textContent = category.description;
+      const selectedPeople = people.filter(person => normalizedCategory(person) === category.id);
+      grid.replaceChildren(...selectedPeople.map(makeCard));
+      empty.hidden = selectedPeople.length !== 0;
+      overview.hidden = true;
+      panel.hidden = false;
+      panel.focus({preventScroll:true});
+    };
+    buttons.forEach(button => {
+      button.addEventListener('click', () => renderCategory(button.dataset.teamCategory));
     });
+    back.addEventListener('click', () => {
+      showOverview();
+      document.querySelector('.team-explore-heading')?.scrollIntoView({behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth',block:'center'});
+    });
+    showOverview();
   }
   const form = document.querySelector('#contact-form');
   form?.addEventListener('submit', async event => {

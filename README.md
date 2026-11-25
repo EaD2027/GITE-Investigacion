@@ -130,3 +130,41 @@ Para ajustar velocidades, buscá en `styles.css` las reglas `giteRing`, `giteDia
 
 ## Fotografías del equipo
 Las fotografías de los investigadores se muestran en retratos circulares compactos de 112 × 112 px (96 × 96 px en móviles). Para cambiar una fotografía, editá la ruta `foto` en `equipo.js` y subí el archivo a `assets/equipo/`. Se recomienda usar una fotografía cuadrada de al menos 400 × 400 px, con el rostro centrado.
+
+
+## Ajustes de interfaz (noviembre 2026)
+
+- Tarjetas de equipo con fotos circulares de 112 px (96 px en celulares), biografías como contenido principal.
+- Mejoras de espaciado, esquinas, contrastes y navegación.
+- Tres accesos a publicaciones destacados visualmente.
+- Texto académico de presentación del equipo incorporado; eliminado aviso técnico visible al visitante.
+- Se conservaron las animaciones geométricas de la portada, datos bibliográficos y archivos de configuración.
+
+
+## Equipo GITE por categorías
+
+La sección `Equipo` ahora incluye cuatro pestañas: **Dirección**, **Coordinación de proyectos**, **Investigadores en formación** y **Colaboradores externos**. Cada tarjeta mantiene fotografía, nombre, rol, biografía, líneas de investigación y enlaces.
+
+Para asignar a cada persona, editá `equipo.js` y agregá la propiedad `categoria` al objeto correspondiente:
+
+```js
+{
+  categoria: "coordinacion", // direccion | coordinacion | formacion | externos
+  nombre: "Nombre real",
+  rol: "Coordinación de proyecto",
+  perfil: "Perfil académico de la persona",
+  areas: ["Inteligencia artificial", "Educación superior"],
+  foto: "assets/equipo/foto.jpg",
+  enlaces: []
+}
+```
+
+Si una persona integra varias actividades, asignale una categoría principal y aclarás sus otras funciones en `rol` o `perfil`. Si se omite la categoría, se mostrará por defecto en **Investigadores en formación**; revisá todos los registros antes de publicar.
+
+**IMPORTANTE:** esta descarga parte de la última versión disponible en la conversación; el archivo de ejemplo `equipo.js` contiene nombres genéricos. Si ya subiste perfiles reales al GitHub, conservá una copia de tu `equipo.js` actual y agregá únicamente las categorías; de lo contrario, al reemplazar todos los archivos sobrescribirás esos datos. Las fotos reales deben permanecer en `assets/equipo/`.
+
+
+## Presentación general del equipo (noviembre de 2026)
+Al ingresar a **Equipo** se muestra una introducción general con dos imágenes **ilustrativas generadas**, que no representan integrantes reales de GITE. Ninguna categoría aparece seleccionada por defecto. El visitante elige Dirección, Coordinación de proyectos, Investigadores en formación o Colaboradores externos y puede volver a la presentación general.
+
+Los perfiles se gestionan en `equipo.js` como antes; se conserva la propiedad `categoria`. Las fotografías personales deben colocarse en `assets/equipo/`. Las ilustraciones generales están en `assets/equipo-investigacion.webp` y `assets/equipo-colaboracion.webp`.

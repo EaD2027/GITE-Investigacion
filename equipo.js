@@ -51,14 +51,6 @@ window.GITE_EQUIPO = [
     foto: "assets/equipo/victoria.jpg",
     enlaces: [{ texto: "Ver Linkedin", url: "https://www.linkedin.com/in/maria-victoria-murno-583b05209/" }]
   },
-      {
-    nombre: "Lic. Leandro Bassani",
-    rol: "Investigador en Formación en GITE",
-    perfil: "Es un profesional con formación en Tecnología Educativa y profesor de Historia, que continúa ampliando su trayectoria académica en el campo de las tecnologías inclusivas en educación. Su interés se centra en la integración de tecnologías digitales en los procesos de enseñanza y aprendizaje, con especial atención a la accesibilidad y la inclusión educativa. Sus intereses de investigación se orientan a la innovación en los abordajes tecnoeducativos y al desarrollo de propuestas que favorezcan nuevas experiencias de aprendizaje en la educación no formal.",
-    areas: ["1", "2", "3"],
-    foto: "assets/equipo/leandro.jpg",
-    enlaces: [{ texto: "Ver Linkedin", url: "https://ar.linkedin.com/in/leandro-h-bassani-7a49b6260/" }]
-  },
         {
     nombre: "Mg. Marina Mattarolo",
     rol: "Investigadora en Formación en GITE",

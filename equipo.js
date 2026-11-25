@@ -72,7 +72,7 @@ window.GITE_EQUIPO = [
     rol: "Investigador en Formación en GITE",
     perfil: "Es un profesional con formación de posgrado en Tecnología Educativa e Investigación en Educación, actualmente doctorando en Educación. Cuenta con experiencia nacional e internacional en docencia universitaria, educación digital, diseño de entornos virtuales de aprendizaje y formación docente. Su trayectoria se centra en la integración de tecnologías digitales en la enseñanza, el enfoque STEAM y el pensamiento computacional. Sus intereses de investigación incluyen la tecnología educativa, la interdisciplinariedad, la polimatía y la justicia cognitiva en la educación superior.",
     areas: ["1", "2", "3"],
-    foto: "assets/equipo/",
+    foto: "assets/equipo/natanael.jpg",
     enlaces: [{ texto: "Ver Linkedin", url: "https://ar.linkedin.com/in/natanael-soberon/" }]
   }
 ];

@@ -88,7 +88,7 @@ window.GITE_EQUIPO = [
   }
 ]
   },
-    {
+  {
     categoria: "formacion",
     nombre: "Mg. Marina Mattarolo",
     rol: "Investigadora en Formación",

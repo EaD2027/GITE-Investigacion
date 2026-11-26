@@ -80,7 +80,7 @@ body{font-size:15px}
 .team-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
 .team-card{border:1px solid #e8e4e0;border-radius:15px;box-shadow:0 7px 23px rgba(32,25,53,.045);padding:25px;gap:0;transition:transform .2s,box-shadow .2s,border-color .2s}
 .team-card:hover{transform:translateY(-4px);border-color:#c9bfeb;box-shadow:0 15px 35px rgba(32,25,53,.085)}
-.team-photo{width:112px;height:112px;aspect-ratio:1;border-radius:50%;background:#eeebf3;align-self:flex-start;flex-shrink:0;border:4px solid white;box-shadow:0 0 0 1px #e4dfeb;margin:0 0 20px;overflow:hidden}
+.team-photo{width:112px;height:112px;aspect-ratio:1;border-radius:50%;background:#eeebf3;align-self:center;flex-shrink:0;border:4px solid white;box-shadow:0 0 0 1px #e4dfeb;margin:0 0 20px;overflow:hidden}
 .team-photo img{width:100%;height:100%;object-fit:cover;border-radius:50%}
 .team-card-body{padding:0;min-width:0}
 .team-role{font-size:10px;letter-spacing:.09em;margin-bottom:7px}

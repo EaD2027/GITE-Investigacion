@@ -80,7 +80,7 @@ window.GITE_EQUIPO = [
     rol: "Investigadora en Formación",
     perfil: "Es una profesional con formación en Tecnología Educativa, profesora de Educación Especial en la modalidad de sordos e hipoacúsicos y con formación complementaria en Neurociencias aplicadas a la Educación. Su trayectoria académica integra la educación especial y las tecnologías digitales, con especial interés en la accesibilidad, la inclusión educativa y las posibilidades que ofrecen las tecnologías para favorecer los procesos de enseñanza y aprendizaje.",
     areas: ["1", "2"],
-    foto: "assets/equipo/belen.jpg",
+    foto: "assets/equipo/victoria.jpg",
     enlaces: [
   {
     texto: "LinkedIn",
@@ -94,7 +94,7 @@ window.GITE_EQUIPO = [
     rol: "Investigadora en Formación",
     perfil: "Es una profesional con formación de posgrado en Tecnología Educativa y experiencia en educación a distancia, diseño tecnopedagógico y gestión de la calidad académica en entornos virtuales. Su trayectoria se centra en el diseño y la evaluación de propuestas educativas, la mejora de los procesos de enseñanza y aprendizaje y el acompañamiento a equipos docentes. Sus intereses de investigación incluyen la inteligencia artificial, las tecnologías emergentes y las experiencias de simulación aplicadas a la educación superior.",
     areas: ["1", "2"],
-    foto: "assets/equipo/belen.jpg",
+    foto: "assets/equipo/marina.jpg",
     enlaces: [
   {
     texto: "LinkedIn",

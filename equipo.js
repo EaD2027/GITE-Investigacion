@@ -98,6 +98,34 @@ window.GITE_EQUIPO = [
 ]
   },
   {
+    categoria: "formacion",
+    nombre: "Lic. Leandro Bassani",
+    rol: "Investigador en Formación",
+    perfil: "Es un profesional con formación en Tecnología Educativa y profesor de Historia, que continúa ampliando su trayectoria académica en el campo de las tecnologías inclusivas en educación. Su interés se centra en la integración de tecnologías digitales en los procesos de enseñanza y aprendizaje, con especial atención a la accesibilidad y la inclusión educativa. Sus intereses de investigación se orientan a la innovación en los abordajes tecnoeducativos y al desarrollo de propuestas que favorezcan nuevas experiencias de aprendizaje en la educación no formal.",
+    areas: ["1", "2"],
+    foto: "assets/equipo/marina.jpg",
+    enlaces: [
+  {
+    texto: "LinkedIn",
+    url: "https://ar.linkedin.com/in/leandro-h-bassani-7a49b6260/"
+  }
+]
+  },
+  {
+    categoria: "formacion",
+    nombre: "Mg. Natanael Soberón",
+    rol: "Investigador en Formación",
+    perfil: "Es un profesional con formación de posgrado en Tecnología Educativa e Investigación en Educación, actualmente doctorando en Educación. Cuenta con experiencia nacional e internacional en docencia universitaria, educación digital, diseño de entornos virtuales de aprendizaje y formación docente. Su trayectoria se centra en la integración de tecnologías digitales en la enseñanza, el enfoque STEAM y el pensamiento computacional. Sus intereses de investigación incluyen la tecnología educativa, la interdisciplinariedad, la polimatía y la justicia cognitiva en la educación superior.",
+    areas: ["1", "2"],
+    foto: "assets/equipo/marina.jpg",
+    enlaces: [
+  {
+    texto: "LinkedIn",
+    url: "https://ar.linkedin.com/in/natanael-soberon/"
+  }
+]
+  },
+  {
     categoria: "externos",
     nombre: "Nombre y apellido",
     rol: "Colaborador/a externo/a",

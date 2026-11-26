@@ -19,7 +19,7 @@ window.GITE_EQUIPO = [
 ]
   },
   {
-    categoria: "coordinacion",
+    categoria: "direccion",
     nombre: "Esp. Elsa Reyes",
     rol: "Coordinadora de Proyectos",
     perfil: "Es Profesora Superior en Ciencias de la Administración y Licenciada en Organización y Gestión Educativa. Cuenta con formación en Estadística e Indicadores Educativos, Tecnología Informática Aplicada en Educación, Ingeniería en Sistemas de Información y Ciencia de Datos. Se especializa en la intersección entre educación, ciencia de datos, estadística, tecnología e inteligencia artificial, con foco en la educación superior y la gestión educativa. Sus líneas de trabajo comprenden el análisis de datos e indicadores educativos, el estudio de trayectorias educativas, la construcción de sistemas de información y observatorios, y la integración de inteligencia artificial en contextos educativos.",

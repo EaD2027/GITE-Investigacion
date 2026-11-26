@@ -8,7 +8,7 @@ window.GITE_EQUIPO = [
     categoria: "direccion",
     nombre: "Dr. Dario Rodriguez",
     rol: "Director",
-    perfil: "wEs un profesional con formación en Ciencias Informáticas, Tecnología Informática Aplicada a la Educación y Comunicación Audiovisual, con amplia trayectoria en investigación, docencia universitaria y tecnología educativa. Especializado en Ingeniería de Espacios Virtuales de Trabajo (EVT), dirige grupos y proyectos de investigación vinculados con el aprendizaje colaborativo y la construcción del conocimiento. Actualmente, es Director General de Educación a Distancia y del SIED en Rectorado de la UTN y Director de Educación a Distancia en UTN.BA. Sus intereses de investigación incluyen la inteligencia artificial aplicada a la educación, las tecnologías emergentes y la innovación en la enseñanza universitaria.",
+    perfil: "Es un profesional con formación en Ciencias Informáticas, Tecnología Informática Aplicada a la Educación y Comunicación Audiovisual, con amplia trayectoria en investigación, docencia universitaria y tecnología educativa. Especializado en Ingeniería de Espacios Virtuales de Trabajo (EVT), dirige grupos y proyectos de investigación vinculados con el aprendizaje colaborativo y la construcción del conocimiento. Actualmente, es Director General de Educación a Distancia y del SIED en Rectorado de la UTN y Director de Educación a Distancia en UTN.BA. Sus intereses de investigación incluyen la inteligencia artificial aplicada a la educación, las tecnologías emergentes y la innovación en la enseñanza universitaria.",
     areas: ["1", "2"],
     foto: "assets/equipo/dario.jpg",
     enlaces: [

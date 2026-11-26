@@ -61,6 +61,20 @@ window.GITE_EQUIPO = [
 ]
   },
   {
+    categoria: "formacion",
+    nombre: "Lic. María Belén Rios",
+    rol: "Investigadora en Formación",
+    perfil: "Es una profesional formada en Tecnología Educativa, con experiencia en educación híbrida y tecnologías digitales aplicadas a la enseñanza. Su trabajo se centra en la investigación sobre el uso pedagógico de los entornos virtuales de aprendizaje y la integración de la inteligencia artificial generativa en la educación superior. Es coautora de trabajos sobre simulación situada con inteligencia artificial (e-labs) y el uso de NotebookLM en la gestión docente.",
+    areas: ["1", "2"],
+    foto: "assets/equipo/belen.jpg",
+    enlaces: [
+  {
+    texto: "LinkedIn",
+    url: "https://ar.linkedin.com/in/maria-belen-rios/"
+  }
+]
+  },
+  {
     categoria: "externos",
     nombre: "Nombre y apellido",
     rol: "Colaborador/a externo/a",

@@ -75,6 +75,34 @@ window.GITE_EQUIPO = [
 ]
   },
   {
+    categoria: "formacion",
+    nombre: "Lic. Victoria Murno",
+    rol: "Investigadora en Formación",
+    perfil: "Es una profesional con formación en Tecnología Educativa, profesora de Educación Especial en la modalidad de sordos e hipoacúsicos y con formación complementaria en Neurociencias aplicadas a la Educación. Su trayectoria académica integra la educación especial y las tecnologías digitales, con especial interés en la accesibilidad, la inclusión educativa y las posibilidades que ofrecen las tecnologías para favorecer los procesos de enseñanza y aprendizaje.",
+    areas: ["1", "2"],
+    foto: "assets/equipo/belen.jpg",
+    enlaces: [
+  {
+    texto: "LinkedIn",
+    url: "https://www.linkedin.com/in/maria-victoria-murno-583b05209/"
+  }
+]
+  },
+    {
+    categoria: "formacion",
+    nombre: "Mg. Marina Mattarolo",
+    rol: "Investigadora en Formación",
+    perfil: "Es una profesional con formación de posgrado en Tecnología Educativa y experiencia en educación a distancia, diseño tecnopedagógico y gestión de la calidad académica en entornos virtuales. Su trayectoria se centra en el diseño y la evaluación de propuestas educativas, la mejora de los procesos de enseñanza y aprendizaje y el acompañamiento a equipos docentes. Sus intereses de investigación incluyen la inteligencia artificial, las tecnologías emergentes y las experiencias de simulación aplicadas a la educación superior.",
+    areas: ["1", "2"],
+    foto: "assets/equipo/belen.jpg",
+    enlaces: [
+  {
+    texto: "LinkedIn",
+    url: "https://ar.linkedin.com/in/marina-mattarolo-86068719b/"
+  }
+]
+  },
+  {
     categoria: "externos",
     nombre: "Nombre y apellido",
     rol: "Colaborador/a externo/a",

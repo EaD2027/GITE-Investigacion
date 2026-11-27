@@ -144,7 +144,7 @@ body{font-size:15px}
 /* Ajustar tamaño y bordes de la imagen principal */
 @media (min-width: 761px) {
   .hero-visual {
-    height: 390px;
+    height: 420px;
     min-height: 0;
     border-radius: 0;
     margin-top: 48px;

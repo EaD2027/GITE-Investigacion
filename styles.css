@@ -137,6 +137,6 @@ body{font-size:15px}
 /* Alinear la imagen con el título principal */
 @media (min-width: 761px) {
   .hero-visual {
-    margin-top: 60px;
+    margin-top: 70px;
   }
 }

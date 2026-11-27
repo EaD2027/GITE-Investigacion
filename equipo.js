@@ -134,8 +134,8 @@ window.GITE_EQUIPO = [
     categoria: "externos",
     nombre: "Lic. Ángela Fariña",
     rol: "Colaboradora externa",
-    perfil: "Espacio para presentar la institución de procedencia, la formación y la colaboración académica con GITE.",
-    areas: ["Cooperación académica"],
+    perfil: "Es una profesional con formación en Tecnología Educativa y Educación Inclusiva y Efectiva, especializada en Ambiente y Desarrollo Sustentable, y actualmente maestranda en Ciencia, Tecnología y Sociedad. Cuenta con experiencia en coordinación tecnopedagógica, formación docente y gestión de proyectos de innovación educativa. Su trayectoria se centra en la integración pedagógica de tecnologías digitales, el diseño de propuestas formativas y el acompañamiento a equipos educativos. Sus áreas de interés académico incluyen la inclusión digital, las metodologías emergentes de enseñanza, la alfabetización digital y el enfoque STEAM.",
+    areas: ["1", "2"],
     foto: "assets/equipo/angela.jpg",
     enlaces: [
   {

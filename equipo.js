@@ -126,18 +126,20 @@ window.GITE_EQUIPO = [
     enlaces: [
   {
     texto: "LinkedIn",
-    url: "https://ar.linkedin.com/in/natanael-soberon/"
+    url: "https://ar.linkedin.com/in/natanael-soberon/"    https://ar.linkedin.com/in/prof-%C3%A1ngela-a-fari%C3%B1a-734b5820a
   }
 ]
   },
   {
     categoria: "externos",
-    nombre: "Nombre y apellido",
-    rol: "Colaborador/a externo/a",
+    nombre: "Lic. Ángela Fariña",
+    rol: "Colaboradora externa",
     perfil: "Espacio para presentar la institución de procedencia, la formación y la colaboración académica con GITE.",
     areas: ["Cooperación académica"],
-    foto: "assets/equipo/integrante-04.jpg",
-    enlaces: []
+    foto: "assets/equipo/angela.jpg",
+    {
+    texto: "LinkedIn",
+    url: "https://ar.linkedin.com/in/prof-%C3%A1ngela-a-fari%C3%B1a-734b5820a"
   }
 ];
 

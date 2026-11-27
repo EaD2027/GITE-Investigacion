@@ -142,7 +142,8 @@ window.GITE_EQUIPO = [
     texto: "LinkedIn",
     url: "https://ar.linkedin.com/in/prof-%C3%A1ngela-a-fari%C3%B1a-734b5820a"
   }
-]};
+]
+  },
 
 // Ejemplo de enlace (dentro de enlaces):
 // { texto: "ORCID", url: "https://orcid.org/...." }

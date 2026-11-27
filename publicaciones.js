@@ -1,11 +1,12 @@
 /* Publicaciones verificadas desde la página histórica de GITE en UTN.BA.
    Fuente: https://frba.utn.edu.ar/ead/publicaciones-academica-gite/
-   El trabajo de CICE 2024 está en la página Artículos científicos por pedido editorial,
-   identificado como publicación en actas de congreso (no artículo de revista).
+   Los trabajos de CICE 2024 y TE&ET 2025 se clasifican en Ponencias y comunicaciones,
+   porque corresponden a trabajos publicados en actas de congresos.
    Agregar nuevas referencias en el arreglo correspondiente.
 */
 window.GITE_PUBLICACIONES = {
-  articulos: [
+  articulos: [],
+  ponencias: [
     {
         "titulo": "Protocolo para Modalidades de Enseñanza Híbrida: Consideraciones Tecnopedagógicas",
         "autores": "Brito, Carlos Gastón; Reyes, Elsa; Rodríguez, Darío",
@@ -25,6 +26,5 @@ window.GITE_PUBLICACIONES = {
         "enlaceTexto": "Consultar actas en SEDICI ↗"
     }
   ],
-  ponencias: [],
   informes: []
 };

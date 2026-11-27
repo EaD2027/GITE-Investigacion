@@ -35,7 +35,7 @@ window.GITE_EQUIPO = [
   {
     categoria: "direccion",
     nombre: "Lic. Gastón Brito",
-    rol: "Asistente de Proyectos",
+    rol: "Líder de Investigación",
     perfil: "Es un profesional formado en Tecnología Educativa y profesor de Matemática, con formación de posgrado en Enseñanza de las Ciencias Experimentales y Matemática. Se desempeña como docente universitario, asesor tecnopedagógico y formador docente en educación a distancia. Sus intereses de investigación se centran en la educación híbrida, la inteligencia artificial generativa y la enseñanza de las ciencias y la matemática. Ha participado en trabajos vinculados con el desarrollo de propuestas educativas híbridas y a distancia mediadas por tecnologías.",
     areas: ["1", "2"],
     foto: "assets/equipo/gaston.jpg",

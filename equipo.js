@@ -144,6 +144,7 @@ window.GITE_EQUIPO = [
   }
 ]
   },
+]
 
 // Ejemplo de enlace (dentro de enlaces):
 // { texto: "ORCID", url: "https://orcid.org/...." }

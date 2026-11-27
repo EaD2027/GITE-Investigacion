@@ -137,7 +137,8 @@ window.GITE_EQUIPO = [
     perfil: "Espacio para presentar la institución de procedencia, la formación y la colaboración académica con GITE.",
     areas: ["Cooperación académica"],
     foto: "assets/equipo/angela.jpg",
-    {
+    enlaces: [
+  {
     texto: "LinkedIn",
     url: "https://ar.linkedin.com/in/prof-%C3%A1ngela-a-fari%C3%B1a-734b5820a"
   }

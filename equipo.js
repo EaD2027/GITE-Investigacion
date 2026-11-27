@@ -15,6 +15,10 @@ window.GITE_EQUIPO = [
   {
     texto: "LinkedIn",
     url: "https://ar.linkedin.com/in/dario-rodriguez-sn/"
+  },
+  {
+    texto: "Producción académica",
+    url: "produccion-integrantes.html"
   }
 ]
   },

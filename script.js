@@ -69,7 +69,7 @@
   const safeUrl = value => {
     if (typeof value !== 'string') return null;
     const url = value.trim();
-    if (/^https:\/\//i.test(url) || /^mailto:[^\s@]+@[^\s@]+$/i.test(url)) return url;
+    if (/^https:\/\//i.test(url) || /^mailto:[^\s@]+@[^\s@]+$/i.test(url) || url === 'produccion-integrantes.html') return url;
     return null;
   };
   const normalizedCategory = person => {

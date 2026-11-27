@@ -168,3 +168,8 @@ Si una persona integra varias actividades, asignale una categoría principal y a
 Al ingresar a **Equipo** se muestra una introducción general con dos imágenes **ilustrativas generadas**, que no representan integrantes reales de GITE. Ninguna categoría aparece seleccionada por defecto. El visitante elige Dirección, Coordinación de proyectos, Investigadores en formación o Colaboradores externos y puede volver a la presentación general.
 
 Los perfiles se gestionan en `equipo.js` como antes; se conserva la propiedad `categoria`. Las fotografías personales deben colocarse en `assets/equipo/`. Las ilustraciones generales están en `assets/equipo-investigacion.webp` y `assets/equipo-colaboracion.webp`.
+
+
+## Producción académica de integrantes
+
+Página adicional: `produccion-integrantes.html`, con 38 referencias aportadas en `Para web.docx`, búsqueda y filtros. Los datos se editan desde `produccion-integrantes.js`. Dos referencias con autoría no consignada quedaron identificadas en `NOTAS_INTEGRACION.txt`. El perfil de Darío Rodríguez agrega acceso local a esta página. La producción individual se distingue expresamente de las publicaciones institucionales de GITE.

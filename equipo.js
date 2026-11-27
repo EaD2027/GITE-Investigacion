@@ -126,7 +126,7 @@ window.GITE_EQUIPO = [
     enlaces: [
   {
     texto: "LinkedIn",
-    url: "https://ar.linkedin.com/in/natanael-soberon/"    https://ar.linkedin.com/in/prof-%C3%A1ngela-a-fari%C3%B1a-734b5820a
+    url: "https://ar.linkedin.com/in/natanael-soberon/"
   }
 ]
   },

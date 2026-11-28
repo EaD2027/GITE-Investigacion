@@ -30,14 +30,14 @@ window.GITE_TRAYECTORIA_DARIO = [
   },
   {
     "titulo": "Procesos de Diseño de Componentes para Espacios Virtuales de Trabajo Orientados a la Educación",
-    "autores": "Darío Rodríguez; Roberto García; Ramón García-Martínez, Hernán Merlino, Darío Rodríguez, Sebastián Martins, Ezequiel Baldizzoni, Santiago Bianco",
+    "autores": "Darío Rodríguez, Roberto García, Ramón García-Martínez, Hernán Merlino, Sebastián Martins, Ezequiel Baldizzoni, Santiago Bianco",
     "anio": "2017",
     "tipo": "congreso",
     "referencia": "En XIX Workshop de Investigadores en Ciencias de la Computación, Argentina: RedUNCI. 2017. 978-987-42-5143-5."
   },
   {
     "titulo": "Propuesta de Protocolo de Formación de Pares Experimentales de Programadores",
-    "autores": "Dario Rodriguez",
+    "autores": "Mauricio Dávila, Marisa Panizzi, Dario Rodriguez",
     "anio": "2017",
     "tipo": "congreso",
     "referencia": "En XXIII Congreso Argentino de Ciencias de la Computación, Argentina: RedUNCI. 2017. 978-950-34-1539-9."
@@ -51,7 +51,7 @@ window.GITE_TRAYECTORIA_DARIO = [
   },
   {
     "titulo": "Espacios Virtuales de Trabajo: Definición de Contenidos de una Asignatura Electiva con Base en Resultados de Investigación",
-    "autores": "Dario Rodríguez; García R",
+    "autores": "Dario Rodríguez; García Roberto",
     "anio": "2016",
     "tipo": "congreso",
     "referencia": "En Proceedings del XI Congreso de Tecnología en Educación y Educación en Tecnología, Argentina: RedUNCI. 2016. 978-987-3977-30-5."
@@ -149,7 +149,7 @@ window.GITE_TRAYECTORIA_DARIO = [
   },
   {
     "titulo": "Uso de Conferencias Web para la Orientación de Tesis de Grado y Posgrado en Ciencias Informáticas",
-    "autores": "Ramon Garcia-Martinez; Dario Rodríguez",
+    "autores": "Ramón García-Martínez; Dario Rodríguez",
     "anio": "2014",
     "tipo": "congreso",
     "referencia": "En Proceedings del IX Congreso de Tecnología en Educación y Educación en Tecnología, Argentina: RedUNCI. 2014. 978-987-24611-1-9."
